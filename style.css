@@ -1,0 +1,89 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+  background-image: url('https://images.pexels.com/photos/4968384/pexels-photo-4968384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  background-size:100% 100vh;
+  background-repeat: no-repeat;
+
+}
+.navbar{
+    background-color: black;
+    opacity: .9;
+}
+.navhead{
+    font-family: "Ga Maamli", sans-serif;
+    color:rgb(203, 14, 14);
+    font-weight: bold;
+    font-style: italic;
+    margin-left: 5%;
+    mix-blend-mode: hard-light;
+    
+    
+}
+.links a{
+    text-decoration: none;
+    color: cornsilk;
+    
+}
+.col1{
+    background-color: rgb(32, 44, 84);
+    color: white;
+    text-align: center;
+    height: 400px;
+    opacity: .9;
+    border-radius: 4%;
+    border-style: groove;
+    border-color: rgb(19, 135, 19);
+    /* margin: 3%; */
+  
+}
+.col1 h3{
+    font-family: "Ga Maamli", sans-serif;
+}
+.col2 h3{
+    font-family: "Ga Maamli", sans-serif;
+}
+.col1 p{
+    text-align: justify;
+    margin-top: 3%;
+
+}
+
+.col2{
+    background-color: rgb(32, 44, 84);
+    color: white;
+    text-align: center;
+    height: 400px;
+    opacity: .9;
+    border-radius: 4%;
+    border-style: groove;
+    border-color: rgb(19, 135, 19);
+    /* margin: 3%; */
+}
+.footer
+{
+    width: 100%;
+    height:73px;
+    background-color: black;
+    margin-top: 1%;
+    text-align: center;
+    opacity: .9;
+    
+}
+
+.footer a{
+    text-decoration: none;
+    color: bisque;
+}
+
+.reg{
+    margin-top: 5%;
+}
+.aregister{
+    text-decoration: none;
+    color: aliceblue;
+  
+}

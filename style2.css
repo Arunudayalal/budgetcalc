@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.headr{
+    width: 100%;
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    font-family: "Ga Maamli", sans-serif;
+}
+.register
+{
+    background-color: rgb(32, 44, 84);
+    color: white;
+    text-align: center;
+    height: 400px;
+    opacity: .9;
+    border-radius: 4%;
+    border-style: groove;
+    border-color: rgb(19, 135, 19);
+    margin: 3%;
+}

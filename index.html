@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Budget Calculator</title>
+    <!-- icon -->
+    <link rel="icon" type="image/png"
+        href="https://th.bing.com/th/id/OIP.OUD90Ejev7LvtfhwBQ4f_AHaHa?rs=1&pid=ImgDetMain">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Monoton&family=Shrikhand&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="container justify-content-between  ">
+            <a class="navbar-brand" href="#">
+                <img src="https://th.bing.com/th/id/OIP.OUD90Ejev7LvtfhwBQ4f_AHaHa?rs=1&pid=ImgDetMain" alt="Bootstrap"
+                    width="70" height="44">
+
+            </a>
+            <div class="navhead">
+                <h1 class="text-center">BUDGET CALCULATOR</h1>
+            </div>
+            <div class="links ">
+                <a class="" href="">LogIn</a>
+                <a class="ps-5" href="./register.html">SignUp</a>
+            </div>
+
+        </div>
+    </nav>
+
+    <!-- content1 -->
+    <div class="row w-100 mt-1 justify-content-evenly ">
+        <div class="col-6 col1">
+            <h3 class="text-warning fw-bold mt-3">Budget Calculation</h3>
+            <p>Most budgeteers' main source of income will come from their full-time or part-time job in the form of
+                salaries or wages. The second largest source of income tends to come from investments and their capital
+                gains, and there are various other methods of receiving additional income.
+
+                Obviously, anyone would most likely want a higher income. Aside from more consumption, conspicuous or
+                otherwise, a higher income allows for more flexibility when it comes to expenses; a month of extreme
+                spending can be quickly rectified by a high enough income. While achieving a higher income is easier
+                said than done, it is generally accomplished through several main avenues: looking for a new job,
+                attaining higher education such as additional degrees or certifications, the development of new skills,
+                or networking with the right people. For some budgeteers, a higher income can come through investment
+                income, though this method only tends to work in the long term. In some situations, a second job may be
+                necessary to make ends meet.</p>
+        </div>
+        <div class="col-4 col2">
+           <h3 class="text-warning fw-bold mt-3 ">Log In</h3>
+           <div class="form mb-3 mt-5">
+            <input type="email" class="form-control text-center" id="uname" placeholder="username">
+            <!-- <label for="floatingInput">Email address</label> -->
+          </div>
+          <div class="form">
+            <input type="password" class="form-control text-center mt-5" id="pass" placeholder="Password">
+            <!-- <label for="floatingPassword">Password</label> -->
+          </div>
+          <button type="button" class="btn btn-success mt-5" onclick="login()">LogIn</button>
+          <div class="reg">
+            <a href="./register.html" class="aregister" >Register</a>
+          </div>
+      
+        </div>
+        
+    </div>
+
+    <!-- footer -->
+     <div class="footer">
+       <h6 class=" text-light pt-3">Calc @ copyright2024</h6>
+       <a href="">Contact Us</a>
+     </div>
+
+</body>
+<script src="./login.js"></script>
+</html>

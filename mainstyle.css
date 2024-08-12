@@ -1,0 +1,73 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    width: 100%;
+    height: 80px;
+    background-color: aquamarine;
+    text-align: center;
+    font-family: "Ga Maamli", sans-serif;
+
+    display: flex;
+
+
+
+
+
+}
+
+.h {
+    width: 90%;
+    justify-content: center;
+    margin-top: 1%;
+    padding-left: 10%;
+}
+
+.b {
+    width: 10%;
+    margin-top: 1.5%;
+}
+
+.inc {
+    height: 300px;
+    background-color: aquamarine;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    width: 45%;
+    
+    
+}
+
+.exp {
+    height: 300px;
+    background-color: aquamarine;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 5%;
+    width: 45%;
+
+   
+}
+.r{
+  
+   
+   justify-content: space-evenly;
+   display: flex;
+}
+.display{
+    width: 30%;
+    height: 150px;
+    background-color: aquamarine;
+    text-align: center;
+    margin-left: 35%;
+    margin-top: 2%;
+}
+.display h3{
+    padding-top: 8%;
+color: blue;
+}
